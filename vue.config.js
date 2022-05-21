@@ -1,6 +1,7 @@
 // vue.config.js
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+	.BundleAnalyzerPlugin
 module.exports = {
 	configureWebpack: (config) => {
 		if (process.env.NODE_ENV === 'production') {

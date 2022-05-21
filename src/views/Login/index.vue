@@ -2,7 +2,7 @@
 <template>
   <div class="home">
     <main>
-      ci-test
+      ci-test1
       <el-form
         :model="ruleForm"
         :rules="rules"
